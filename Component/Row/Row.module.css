@@ -1,0 +1,42 @@
+.row {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+.rowImg {
+  display: flex;
+  min-width: 600px;
+  animation: animation 2.7s ease;
+}
+
+.rowImg img {
+  width: 100%;
+}
+
+.rowRight {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  flex: 1;
+  margin-left: 30px;
+  color: #fff;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+.btns:first-child {
+  margin-left: 20px;
+}
+
+@keyframes animation {
+  from {
+    transform: translateY(-300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

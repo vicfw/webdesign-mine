@@ -1,0 +1,10 @@
+.logo {
+  object-fit: contain;
+  width: 140px;
+  min-width: 140px;
+  display: flex;
+}
+
+.logo img {
+  width: 100%;
+}

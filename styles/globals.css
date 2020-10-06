@@ -1,16 +1,16 @@
+@font-face {
+  font-family: "IranSans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/Fonts/IRANSansWeb.ttf");
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
+  font-family: "IranSans", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  direction: rtl;
   box-sizing: border-box;
 }

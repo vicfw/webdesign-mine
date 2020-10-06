@@ -1,0 +1,51 @@
+.header {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.headerTop {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  direction: ltr;
+}
+
+.shop {
+  display: inline-block;
+  margin-left: 10px;
+}
+.shop svg {
+  font-size: 1.5rem;
+}
+.login {
+  display: inline-block;
+  margin-left: 10px;
+}
+.login svg {
+  font-size: 1.5rem;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.contact svg {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+.headerMain {
+  display: flex;
+  align-items: center;
+  height: 110px;
+  justify-content: space-between;
+}
+
+.headerList {
+  display: flex;
+  justify-content: space-between;
+  min-width: 500px;
+  list-style: none;
+  font-size: 1.1rem;
+}

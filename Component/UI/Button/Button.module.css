@@ -1,0 +1,35 @@
+.button {
+  font-family: "IranSans" !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.btnRed {
+  background-color: #df4a21;
+  color: #fff;
+}
+
+.btnRed:hover {
+  background: #fff;
+  color: #df4a21;
+}
+
+.btnBlue {
+  background-color: #41b3a3;
+  color: #fff;
+  border: 2px solid transparent;
+}
+
+.btnBlue:hover {
+  opacity: 0.8;
+  color: #fff;
+}
